@@ -7,9 +7,9 @@ A technical demonstration showcasing how to optimize a dense 2D scene in Unity (
 
 ##  Demo / Before & After
 
-![50 fps scene with 1,000 items](./Assets/Images/20_fps.gif)
+![50 fps scene with 1,000 items](./Assets/Images/20_fps.gif {width=400px height=400px})
 
-![50 fps scene with 1,000 items](./Assets/Images/50_fps.gif)
+![50 fps scene with 1,000 items](./Assets/Images/50_fps.gif {width=400px height=400px})
 
 ---
 
