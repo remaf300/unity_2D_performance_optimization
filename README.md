@@ -7,7 +7,7 @@ A technical demonstration showcasing how to optimize a dense 2D scene in Unity (
 
 ##  Demo / Before & After
 
-![50 fps scene with 1,000 items]("Images/50fps.gif")
+![50 fps scene with 1,000 items]("Assets/Images/50fps.gif")
 
 ---
 
@@ -26,7 +26,7 @@ When spawning over 1,000 active 2D items simultaneously, the game suffered from 
   * The `PlayerLoop` was heavily congested by individual item scripts running checks every frame.
   * `Physics2D.Simulate` was overworked trying to compute collisions for thousands of static/inactive items.
 
-![profiler_image]("Images/cpu_overhead_profiler.png")
+![profiler_image]("Assets/Images/cpu_overhead_profiler.png")
 
 ---
 
