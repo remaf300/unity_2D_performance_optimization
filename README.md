@@ -7,7 +7,7 @@ A technical demonstration showcasing how to optimize a dense 2D scene in Unity (
 
 ##  Demo / Before & After
 
-![50 fps scene with 1,000 items](Images/50_fps.gif)(Images/50fps.gif)
+![50 fps scene with 1,000 items]("Images/50fps.gif")
 
 ---
 
@@ -26,7 +26,7 @@ When spawning over 1,000 active 2D items simultaneously, the game suffered from 
   * The `PlayerLoop` was heavily congested by individual item scripts running checks every frame.
   * `Physics2D.Simulate` was overworked trying to compute collisions for thousands of static/inactive items.
 
-<img src="Images/cpu_overhead_profiler.png" width="40" height="40" />
+![profiler_image]("Images/cpu_overhead_profiler.png")
 
 ---
 
@@ -37,7 +37,7 @@ Instead of letting every item run its logic and physics continuously, items rema
 * When the player gets close $\rightarrow$ Enable `Rigidbody2D` / physics and interaction logic.
 * When the player moves away $\rightarrow$ Disable components to save CPU cycles.
 
-* **Key script:** [`PickupItem.cs`](./Assets/Scripts/PickupItem.cs)
+* **Key script:** [`PickupItem.cs`](Assets/Scripts/PickupItem.cs)
 * **Snippet example:**
 ```csharp
 // if the player is near the item
@@ -63,7 +63,4 @@ else if (rb.bodyType != RigidbodyType2D.Kinematic && rb.linearVelocity.magnitude
 
 
 You can watch a video I made about it (it's in French):
-<a href="https://www.youtube.com/watch?v=fclpj6KCyAs">
-  <img src="Images/optimization_video_thumbnail.png"/>
-</a>
-
+[`viens on optimise mon jeu`](https://www.youtube.com/watch?v=fclpj6KCyAs)
