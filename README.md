@@ -5,10 +5,10 @@ A technical demonstration showcasing how to optimize a dense 2D scene in Unity (
 
 ---
 
-##  Demo / Before & After
-
-<img src="./Assets/Images/20_fps.gif" width="400">
-<img src="/Assets/Images/50_fps.gif" width="400">
+##  Demo
+Before  |  After
+:-------------------------:|:-------------------------:
+<img src="./Assets/Images/20_fps.gif" width="400">  |  <img src="/Assets/Images/50_fps.gif" width="400">
 
 ---
 
@@ -60,7 +60,7 @@ else if (rb.bodyType != RigidbodyType2D.Kinematic && rb.linearVelocity.magnitude
 
 | Before Optimization (Naive Approach) | After Optimization (Distance Culling + Script Refactoring) |
 | :---: | :---: |
-| ❌ ~20 FPS (Heavy Physics)           | ✅ ~50 FPS (Smooth & Optimized) |
+| ❌ ~20 FPS (Heavy Physics) | ✅ ~50 FPS (Smooth & Optimized) |
 
 
 You can watch a video I made about it (it's in French):
