@@ -1,5 +1,5 @@
 # Unity 2D Performance Optimization
-Performance optimization and lag reduction for my 2D Unity game, Blackpeak Depths.
+Performance optimization and lag reduction for my 2D Unity game, [`Blackpeak Depths`](https://youtu.be/lfduegtb_oA?si=fiB57OzAbNfddShL).
 
 A technical demonstration showcasing how to optimize a dense 2D scene in Unity (handling thousands of active items) by replacing heavy per-frame updates and global physics calculations with a **distance-based activation system** and optimized interaction logic.
 
@@ -62,6 +62,8 @@ else if (rb.bodyType != RigidbodyType2D.Kinematic && rb.linearVelocity.magnitude
 | :---: | :---: |
 | ❌ ~20 FPS (Heavy Physics) | ✅ ~50 FPS (Smooth & Optimized) |
 
+---
 
-You can watch a video I made about it (it's in French):
-[![viens on optimise mon jeu](./Assets/Images/optimization_video_thumbnail.png)](https://www.youtube.com/watch?v=fclpj6KCyAs)
+You can watch a video I made about it (in French):
+---
+[<img src="./Assets/Images/optimization_video_thumbnail.png" width="400">](https://www.youtube.com/watch?v=fclpj6KCyAs)
