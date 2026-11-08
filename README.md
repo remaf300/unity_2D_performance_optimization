@@ -1,4 +1,4 @@
-# Unity 2D Performance Optimization
+# Unity 2D Performance Optimization (Nov 08, 2026)
 Performance optimization and lag reduction for my 2D Unity game, [`Blackpeak Depths`](https://youtu.be/lfduegtb_oA?si=fiB57OzAbNfddShL).
 
 A technical demonstration showcasing how to optimize a dense 2D scene in Unity (handling thousands of active items) by replacing heavy per-frame updates and global physics calculations with a **distance-based activation system** and optimized interaction logic.
