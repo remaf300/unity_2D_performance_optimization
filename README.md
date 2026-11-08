@@ -8,7 +8,7 @@ A technical demonstration showcasing how to optimize a dense 2D scene in Unity (
 ##  Demo
 | Before Optimization ~20 FPS | After Optimization ~50 FPS |
 | :---: | :---: |
-| <img src="Assets/Images/20_fps.gif" width="400">  |  <img src="Assets/Images/50_fps.gif" width="400">|
+| <img src="Assets/Images/20_fps.gif" width="350">  |  <img src="Assets/Images/50_fps.gif" width="350">|
 
 ---
 
