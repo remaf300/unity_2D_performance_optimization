@@ -58,6 +58,7 @@ else if (rb.bodyType != RigidbodyType2D.Kinematic && rb.linearVelocity.magnitude
 
 ---
 
-You can watch a video I made about it (in French):
+## Watch the Video
+You can watch a devlog/video I made about it (in French):
 
 [<img src="Assets/Images/optimization_video_thumbnail.png" width="400">](https://www.youtube.com/watch?v=fclpj6KCyAs)
